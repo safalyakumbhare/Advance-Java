@@ -3,6 +3,8 @@ import java.awt.*;
 public class Demo extends JFrame {
     JLabel l;
     Demo(){
+		setLayout(new FlowLayout());
+        
         setSize(400, 300);
         setLayout(null);
         setVisible(true);
