@@ -2,7 +2,9 @@ import javax.swing.*;
 public class DemoJFrame extends JFrame{
     DemoJFrame()
     {
-        setLayout(null);
+        JButton jb = new JButton("Click");
+        add(jb); //add button to the frame
+        // setLayout(null);
         setSize(400,400);
         setVisible(true);
         setTitle("Demo JFrame");
