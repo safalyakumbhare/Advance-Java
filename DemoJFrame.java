@@ -1,8 +1,9 @@
 import javax.swing.*;
 public class DemoJFrame extends JFrame{
+    JButton jb;
     DemoJFrame()
     {
-        JButton jb = new JButton("Click");
+        jb = new JButton("Click");
         add(jb); //add button to the frame
         // setLayout(null);
         setSize(400,400);
