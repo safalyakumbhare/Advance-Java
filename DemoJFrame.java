@@ -7,8 +7,10 @@ public class DemoJFrame extends JFrame{
         add(jb); //add button to the frame
         // setLayout(null);
         setSize(400,400);
-        setVisible(true);
         setTitle("Demo JFrame");
+        setVisible(true);
+        
+        
     }
     public static void main(String[] args) {
         DemoJFrame DJ = new DemoJFrame();
