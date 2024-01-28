@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
 public class Submit extends JFrame{
     JButton b;
     JLabel l;
