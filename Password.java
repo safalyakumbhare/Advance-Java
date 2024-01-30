@@ -11,6 +11,7 @@ public class Password extends JFrame{
         setSize(300,300);
         setLayout(null);
         setVisible(true);
+        setTitle("JPassword");
         add(l);
         add(p);
     }
