@@ -9,7 +9,6 @@ public class DemoJButton extends JFrame {
         setSize(300, 300);
         setLayout(null);
         setVisible(true);
-        setTitle("Demo JButton");
         add(b);
     }
 
