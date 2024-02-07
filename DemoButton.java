@@ -1,10 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;;
-class DemoButton extends JFrame implements ActionListener{
+class DemoEvent extends JFrame implements ActionListener{
     JButton b;
     JTextField t;
-    DemoButton()
+    DemoEvent()
     {
         setLayout(new FlowLayout());
         setTitle("ActionEvent Demo");
@@ -21,7 +21,7 @@ class DemoButton extends JFrame implements ActionListener{
         t.setText("Hello");
     }
     public static void main(String[] args) {
-        DemoButton b = new DemoButton();
+        DemoEvent b = new DemoEvent();
     }
     
 }
