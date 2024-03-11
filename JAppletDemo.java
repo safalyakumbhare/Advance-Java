@@ -1,21 +1,32 @@
-import java.awt.*;
-import javax.swing.*;
+import java.applet.Applet;  
+import java.awt.Button;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-/*<applet code="JAppletDemo.class" width="200" height="200"></applet> */
-public class JAppletDemo extends JApplet {
-
-    JButton b;
-    JTextField tf;
-
-    public void init() {
-        tf = new JTextField();
-        tf.setBounds(20, 40, 100, 20);
-
-        b = new JButton("Click");
-        b.setBounds(60, 100, 70, 40);
-
-        add(b);
-        add(tf);
-        setLayout(null);
+public class JAppletDemo extends Applet implements ActionListener {  
+    TextField tf;  
+    Button b;  
+  
+     JAppletDemo(){  
+        tf = new TextField();  
+        tf.setBounds(30,40,150,20);  
+      
+        b = new Button("Click");  
+        b.setBounds(80,150,60,50);  
+      
+        add(b);  
+        add(tf);  
+        b.addActionListener(this);  
+      
+        setLayout(null);  
+    }  
+  
+    public void actionPerformed(ActionEvent e){  
+        tf.setText("Welcome");  
     }
-}
+    public static void main(String[] args) {
+        new JAppletDemo();
+
+    }  
+}  
