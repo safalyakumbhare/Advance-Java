@@ -38,11 +38,11 @@ public class MouseListenerExample extends Frame implements MouseListener, MouseM
     }
 
     public void mouseReleased(MouseEvent e) {
-        l.setText("Mouse Choda");
+        l.setText("Mouse Drag krke Choda");
     }
 
     public void mouseDragged(MouseEvent e) {
-        l.setText("Mouse Dragged");
+        l.setText("Mouse Drag hora hai");
     }
 
     // MouseMotionListener methods
