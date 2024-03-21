@@ -1,18 +1,19 @@
 import javax.swing.*;
-
-class labelhello extends JFrame {
-    JLabel l;
-
-    labelhello() {
-        l = new JLabel("Hello Java GUI");
-        l.setBounds(100, 0, 250, 30);
+class lebelhello extends JFrame
+{
+    JLabel abc;
+    lebelhello()
+    {
+        abc=new JLabel("Lambu");
+        abc.setBounds(100,100,1000,50);
         setVisible(true);
-        setSize(300, 300);
         setLayout(null);
-
-        add(l);
+        setSize(300,350);
+        setTitle("PRAJAKTA");
+         add(abc);
     }
+
     public static void main(String[] args) {
-        labelhello obj = new labelhello();
+        lebelhello xyz=new lebelhello();
     }
 }
