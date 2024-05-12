@@ -5,7 +5,7 @@ class button extends JFrame
     button()
     {
         pqr=new JButton("Hello User");
-        pqr.setBounds (100,100,200,300);
+        pqr.setBounds (50,50,200,30);
         setVisible(true);
         setLayout(null);
         setSize(300,200);
@@ -13,7 +13,7 @@ class button extends JFrame
     add(pqr);
     }
     public static void main(String[] args) {
-        textfield pqr=new textfield();
+        new button();
     }
     
 }
